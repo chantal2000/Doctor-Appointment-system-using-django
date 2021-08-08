@@ -10,7 +10,6 @@ urlpatterns = [
     path('login_admin/',login_admin,name='login_admin'),
     path('loginpage/',loginpage,name='loginpage'),
     path('createAccount/',createAccount,name='createAccount'),
-    path('adminhome/',adminhomepage,name='adminhome'),
     path('adddoctor/',adddoctorpage,name='adminaddDoctor'),
     path('viewdoctor/',viewdoctorpage,name='adminViewDoctor'),
     path('addreception/',addreceptpage,name='adminAddReceptionist'),
