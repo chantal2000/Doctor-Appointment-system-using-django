@@ -110,7 +110,7 @@ stevedore==3.3.0
 swapper==1.1.2.post1
 systemd-python==234
 tqdm==4.62.0
-ttystatus==0.38
+# ttystatus==0.38
 typesystem==0.3.0.dev0
 typing-extensions==3.10.0.0
 ubuntu-advantage-tools==27.0
