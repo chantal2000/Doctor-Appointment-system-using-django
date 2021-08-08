@@ -76,7 +76,7 @@ pexpect==4.6.0
 phonenumbers==8.12.28
 Pillow==7.2.0
 pipenv==11.9.0
-protobuf==3.12.3
+# protobuf==3.12.3
 pycairo==1.16.2
 pycups==2.0.1
 Pygments==2.3.1
