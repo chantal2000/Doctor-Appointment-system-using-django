@@ -14,7 +14,7 @@ chardet==3.0.4
 # cliapp==1.20180812.1
 click==7.1.2
 colorama==0.4.3
-command-not-found==0.3
+# command-not-found==0.3
 country-list==1.0.0
 cryptography==3.0
 cssselect==1.1.0
