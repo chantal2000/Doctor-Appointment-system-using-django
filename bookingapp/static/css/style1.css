@@ -1,0 +1,56 @@
+#bg {
+    background-size: 1800px 700px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    text-align: top;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+    height: 60px;
+    width: 81rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 0;
+    /* position: fixed; */
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 500px;
+    margin-left: 80px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+#down {
+    margin-top: 160px;
+}

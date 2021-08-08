@@ -1,0 +1,33 @@
+{%load static %}
+<link rel="stylesheet" href="{%  static  'css/style1.css'  %}">
+
+<header>
+    <a class="nav-link" href="#">Doctor Appointment</a>
+    <div class="nav-right">
+        <a class="nav-link" href="../about">About</a>
+        <a class="nav-link" href="../contact">Contact </a>
+        <a class="nav-link" href="../services">Services</a>
+        <a class="nav-link" href="../signup">Signup</a>
+        <a class="nav-link" href="../signin">Login</a>
+        <a class="nav-link" href="../signout">Logout</a>
+    </div>
+</header>
+
+<div class="row">
+    <div class="column">
+        <img src="{% static 'images/doctor3.jpg' %}" alt="">
+    </div>
+    <div class="column" id="down">
+        <h1 class="text-center">
+            About us</h1>
+        <p class="text-justify" id="about-p"> the main motive of this website is to prvide a reliable service to our users with guaranted privacy.This website holds the details of the patient to book their appointment with the doctors and can view their preview appointments,prescriptions,reports,etc</p>
+        <p class="text-textify" id="about-p1">The patient can view the doctore of their specialisation,so that they can book an appointment with the respective doctor of their interest.The doctor can view all the details of the appointments so that he/she can give the prescription for the
+            patient.The prescription details are also saved so that whenver the patient again visits to show the previous treatment taken</p>
+        <p class="text-justify" id="about-p-1">The receptionist in the organisation will handle the outpatients coming to the hospital and maintaint the payments for the consultation through offline.The admin can add new doctors,Receptions,view all appointments,delete doctors account,view
+            the prescriptions given to the patients by doctors</p>
+        <div class="scroll-top-wrapper">
+            <span class="scroll-top-inner"><i class="fa fa-arrow-circle-up"></i>
+                </span>
+        </div>
+    </div>
+</div>
